@@ -1,8 +1,11 @@
 'use strict';
 
 function even_to_letter(collection) {
-
-  //在这里写入代码
+  var r = [];
+  for (let item of collection) {
+    if (item % 2 == 0) r.push(String.fromCharCode('a'.charCodeAt(0)+item-1));
+  }
+  return r;
 }
 
 module.exports = even_to_letter;

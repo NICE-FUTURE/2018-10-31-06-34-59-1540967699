@@ -1,5 +1,8 @@
 function create_updated_collection(collection_a, object_b) {
-  //在这里写入代码
+  return collection_a.map(element => {
+    if (object_b['value'].indexOf(element.key) != -1) return {'key':element.key, 'count':element.count-1};
+    else return {'key':element.key, 'count':element.count}
+  });
 }
 
 module.exports = create_updated_collection;
