@@ -8,7 +8,7 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceFolder}\\main\\superposition_operation\\own_elements_operation\\rank_by_two_large_one_small.js"
+            "program": "${workspaceFolder}\\main\\reduce\\find_first_even.js"
         }
     ]
 }

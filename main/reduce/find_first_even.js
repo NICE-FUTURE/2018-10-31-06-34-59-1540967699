@@ -6,5 +6,9 @@ function find_first_even(collection) {
   }
 }
 
+// var collection = [1,11,27,20,4,9,15];
+// console.log(find_first_even(collection));
+
+
 module.exports = find_first_even;
 

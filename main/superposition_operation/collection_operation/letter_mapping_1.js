@@ -2,9 +2,9 @@
 
 function even_to_letter(collection) {
   var r = [];
-  for (let item of collection) {
+  collection.forEach(item => {
     if (item % 2 == 0) r.push(String.fromCharCode('a'.charCodeAt(0)+item-1));
-  }
+  });
   return r;
 }
 

@@ -2,13 +2,13 @@
 
 function grouping_count(collection) {
   var r = {};
-  for (let item of collection) {
+  collection.forEach(item => {
     if (r[''+item] == undefined) {
       r[''+item] = 1;
     } else {
       r[''+item] += 1;
     }
-  }
+  });
   return r;
 }
 
